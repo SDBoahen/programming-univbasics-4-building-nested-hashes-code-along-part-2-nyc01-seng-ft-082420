@@ -119,6 +119,15 @@ def
 
 epic_tragedy[:additional_characters] = [ ]
 
+    epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
+    epic_tragedy[:additional_characters] << { name: "Apothecary" }
+
+Or we could assign these hashes using chained brackets:
+
+    epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
+    epic_tragedy[:additional_characters][1] = { name: "Apothecary" }
+
+
     prince     = { name: "Prince Escalus" }
     apothecary = { name: "Apothecary" }
 

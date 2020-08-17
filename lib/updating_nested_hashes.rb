@@ -42,17 +42,27 @@ def
 
 
 
-  # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
-  # Code your solution here:
+# Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
+# Code your solution here:
+
+epic_tragedy[:montague]
 
 
 
-
-  # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
+# After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
 
-def add_characters
+
+
+
+
+
+
+
+def 
+  
+  add_characters
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -88,5 +98,8 @@ def add_characters
 
 
    # After your code, the following line will return the altered hash
+   
    epic_tragedy
+   
 end
+

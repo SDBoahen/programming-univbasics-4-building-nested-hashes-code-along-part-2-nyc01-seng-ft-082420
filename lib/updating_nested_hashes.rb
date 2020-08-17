@@ -122,17 +122,22 @@ epic_tragedy[:additional_characters] = [ ]
     epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
     epic_tragedy[:additional_characters] << { name: "Apothecary" }
 
-Or we could assign these hashes using chained brackets:
 
-    epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
-    epic_tragedy[:additional_characters][1] = { name: "Apothecary" }
+    # #  H||(
+    
+    # Or we could assign these hashes using chained brackets:
+
+    # epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
+    # epic_tragedy[:additional_characters][1] = { name: "Apothecary" }
 
 
-    prince     = { name: "Prince Escalus" }
-    apothecary = { name: "Apothecary" }
+    # prince     = { name: "Prince Escalus" }
+    # apothecary = { name: "Apothecary" }
 
-    epic_tragedy[:additional_characters] << prince
-    epic_tragedy[:additional_characters] << apothecary
+    # epic_tragedy[:additional_characters] << prince
+    # epic_tragedy[:additional_characters] << apothecary
+    
+    # #  )||H
     
     
    # After your code, the following line will return the altered hash

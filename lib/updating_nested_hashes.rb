@@ -125,13 +125,22 @@ epic_tragedy[:additional_characters] = [ ]
 
     # #  H||(
     
-    # Or we could assign these hashes using chained brackets:
+    # -- Or we could assign these hashes using chained brackets --
 
     # epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
     # epic_tragedy[:additional_characters][1] = { name: "Apothecary" }
+    
+    
+    # -- It is also perfectly valid to compose the creation of both hashes when creating the array they are in:
+
+    epic_tragedy[:additional_characters] = 
+    [
+        { name: "Prince Escalus" },
+        { name: "Apothecary" }
+    ]
 
     
-    # Phase By Phase / State By State
+    # -- Phase By Phase / State By State --
 
     # prince     = { name: "Prince Escalus" }
     # apothecary = { name: "Apothecary" }

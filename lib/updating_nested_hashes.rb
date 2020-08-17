@@ -133,11 +133,11 @@ epic_tragedy[:additional_characters] = [ ]
     
     # -- It is also perfectly valid to compose the creation of both hashes when creating the array they are in:
 
-    epic_tragedy[:additional_characters] = 
-    [
-        { name: "Prince Escalus" },
-        { name: "Apothecary" }
-    ]
+    # epic_tragedy[:additional_characters] = 
+    # [
+    #     { name: "Prince Escalus" },
+    #     { name: "Apothecary" }
+    # ]
 
     
     # -- Phase By Phase / State By State --
